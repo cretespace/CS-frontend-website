@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.font-ebrima {
+  font-family: var(--font-ebrima);
+}
+.lit-bg{
+
+  background:radial-gradient(
+    50.7% 20.49% at 50% 5.85%,
+    rgba(1, 105, 18, 0.397) 20%,
+    rgba(0,40,0, 0.45) 35%,
+    rgba(0, 20, 0, 0.6) 80%,
+    rgba(0,0,0,0.85)100%
+    )
+  }
