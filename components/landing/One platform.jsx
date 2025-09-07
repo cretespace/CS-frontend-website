@@ -52,11 +52,11 @@ export default function One () {
                     <div className=" grid md:grid-cols-3 gap-[12px] mt-[30px]">
                       {
                         features.map((item,i)=>(
-                           <div key={i} className="relative h-[161px] rounded-[10px] m-auto block border-1 border-[rgb(4,59,3)]">
-                                <h3 className="mt-[20px] ml-[18px] font-medium text-[18px] leading-[100%] tracking-[0%] text-[rgba(255, 255, 255, 1)]">
+                           <div key={i} className="relative p-5 h-[161px] rounded-[10px] m-auto block border-1 border-[rgb(4,59,3)] ">
+                                <h3 className=" font-inter font-medium text-[18px] leading-[100%] tracking-[0%] text-white">
                                   {item.title}
                                     </h3>
-                                    <p className="mt-[8px] ml-[18px] font-normal text-[12px] leading-[15px] text-[#ffffff7c] tracking-[0%] pr-12">
+                                    <p className=" mt-[10px]  font-normal text-[12px] leading-[15px] text-[#ffffff7c] tracking-[0%] pr-12">
                                     {item.content}
                                     </p>
                                     <img className="right-5 absolute bottom-5 object-coner" src= {item.icon} width={26} height={26} alt="" />
