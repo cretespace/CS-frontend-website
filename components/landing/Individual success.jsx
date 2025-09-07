@@ -6,7 +6,7 @@ const successStory = [
     id: 1,
     name: "Ebube Okonkwo",
     role: "Product Designer",
-    image: "/Ellipse 9 (5).png",
+    image: "/ellipse-9-5.png",
     content:
       "“From assignments to final year projects, CRETESPACE handles it all. I love the cloud library — I can store and print my work anytime, even right before a deadline.”",
     icons: [
@@ -26,7 +26,7 @@ const successStory = [
     social2: "/icons/twhite.svg",  
     name: "Laura Nnaji",
     role: "Fashion Designer",
-    image: "/Ellipse 9 (3).png",
+    image: "/ellipse-9-3.png",
     content:
       "“Managing admin tasks used to eatup mytime. With CRETESPACE, I have a dedicated support agent, cloud tools, and quick printing all in one place. My business runs smoother than ever.”",
     icons: [
@@ -41,7 +41,7 @@ const successStory = [
     id: 3,
     name: "Laura Nnaji",
     role: "Fashion Designer",
-    image: "/Ellipse 9 (3).png",
+    image: "/ellipse-9-4.png",
     content:
       "CRETESPACE has been a lifesaver for my freelance work. I can typeset, print, and get documents delivered without leaving my desk. It’s fast, reliable, and stress-free.",
     icons: [
