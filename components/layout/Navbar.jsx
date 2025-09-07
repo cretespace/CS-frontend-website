@@ -25,10 +25,9 @@ export default function Navbar() {
           <div className="flex gap-2 items-center">
             <a href="#">Login</a>
             <button
-              className="pt-[4px] text-[16px] pr-[6px] pb-[4px] pl-[6px] gap-[10px] rounded-md bg-[rgba(0,160,212,1)] text-base font-medium leading-[24px] tracking-[0.1px] text-[rgba(background: rgba(255, 255, 255, 1);
-)]"
+              className="pt-[4px] text-[16px] pr-[6px] pb-[4px] pl-[6px] gap-[10px] rounded-md bg-[#00A0D4] text-base font-medium leading-[24px] tracking-[0.1px] text-[#C0C0C0]"
             >
-              <Link href="/register">Sign up</Link>
+              <Link href="/account-types" >Sign up</Link>
             </button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 import { CircleArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Hero() {
@@ -14,7 +15,7 @@ export default function Hero() {
       }}
     >
       <div className="flex flex-col gap-[38px] mt-[51px]">
-        <h1 className=" font-mono sm:text-[54px] md:text-[54px] lg:text-[62px]  xl:text-[72px] font-bold  sm:leading-[20px] md:leading-[80px] lg:leading-[80px] tracking-[1px] text-left text-global-3 font-ebrima ">
+        <h1 className=" font-mono text-[72px] font-bold  sm:leading-[20px] md:leading-[80px] lg:leading-[80px] tracking-[1px] text-left text-global-3 font-ebrima ">
           Skip the Wait,
           <br />
           Skip the Stress.
@@ -23,12 +24,12 @@ export default function Hero() {
           Africa's first Cloud-powered Digital business centre.
         </p>
 
-        <div className="flex  items-center w-full gap-[16px] font-ebrima">
-          <button className="bg-[#00A0D4] p-[10px] rounded-[10px] gap-[8px] w-[195px] flex justify-center font-[500] items-center">
+        <div className="flex  items-center w-full gap-[16px] ">
+         <Link href={'/signUp'} className="bg-[#00A0D4] p-[10px] text-[16px] rounded-[10px] gap-[8px] w-[195px] h-[44px] flex justify-center font-[500] items-center">
             Get started for free
             <CircleArrowRight size={20} />
-          </button>
-          <p className="font-[500]">Learn more</p>
+          </Link>
+          <p className="font-[500] text-[16px]">Learn more</p>
         </div>
       </div>
       <Image

@@ -16,6 +16,12 @@ module.exports = {
         rgba(0,0,0,0.85)100%
         )`
       },
+      colors:{
+        primary:"#2FC22B",
+        light: "#4DDB49",  
+          dark: "#20861E", 
+      },
+
       fontFamily: {
        ebrima: ["var(--font-ebrima)", "sans-serif"],
       },

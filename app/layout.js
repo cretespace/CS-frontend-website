@@ -2,20 +2,9 @@ import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 
-const ebrima = localFont({
-  src: "../fonts/ebrima.ttf",
-  variable: "--font-ebrima",
-});
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
 
 const poppins = Poppins({
   weight: ["400", "600"],
@@ -31,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased  bg-[#0B0000] xl:px-[165px] lg:px-[155px]`}
+        className={`${poppins.variable} antialiased text-[14px] bg-[#0B0000] xl:px-[165px] lg:px-[12px] px-5`}
       >
         {children}
       </body>

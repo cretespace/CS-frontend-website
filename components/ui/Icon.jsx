@@ -8,6 +8,7 @@ const Icon = ({ w, h, src }) => {
         width={w || 26}
         height={h || 26}
         src={src || "/signUp/checkbox.svg"}
+        alt='img'
       />
     </div>
   );
