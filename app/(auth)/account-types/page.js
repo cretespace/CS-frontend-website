@@ -31,7 +31,7 @@ const page = () => {
   return (
     <section className='flex flex-col items-center gap-10 h-[100vh] -mx-[162px] px-[162px]'>
     
-         <Image className='w-[300] h-[100]' src={'/bgblur2.png'} width={469} height={100} alt='img'/>
+         <Image className='w-[300] h-[100]' src={'/bgblur2.png'} width={465} height={98} alt='img'/>
     <div className='flex flex-col items-center justify-center gap-10 h-[100vh] -mt-[6rem]'>
         
         <div >
