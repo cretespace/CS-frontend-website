@@ -9,7 +9,7 @@ export default function Navbar() {
     <section className="-mx-[165px] h-[66px] border-b-[#2FC22B80] px-[40px] py-[17px] text-[#B8B8B8] border-b justify-between">
       <nav className=" px-[40px] flex justify-between items-center">
         <div>
-          <Image src="/logoOne.png" alt="crete logo" width={86} height={29} />
+          <Image src="/logo.svg" alt="crete logo" width={86} height={29} />
         </div>
         <div className="flex gap-5 items-center">
           <div className="flex gap-5 ">
