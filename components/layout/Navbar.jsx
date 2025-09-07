@@ -1,18 +1,14 @@
 "use client";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import React from "react";
 
 export default function Navbar() {
-  const pathname = usePathname();
-  if (pathname === "/register") {
-    return null;
-  }
+
   return (
-    <section className="-mx-[165px] h-[66px] border-b-[rgba(47,194,43,0.5)]  py-[17px] text-[#B8B8B8] border-b justify-between">
+    <section className="-mx-[165px] h-[66px] border-b-[#2FC22B80] px-[40px] py-[17px] text-[#B8B8B8] border-b justify-between">
       <nav className=" px-[40px] flex justify-between items-center">
         <div>
-          <img src="/Crete Logo.png" alt="crete logo" width={86} height={29} />
+          <img src="/logoOne.png" alt="crete logo" width={86} height={29} />
         </div>
         <div className="flex gap-5 items-center">
           <div className="flex gap-5 ">
