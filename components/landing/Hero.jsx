@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
       </div>
       <img
-        src="/guy2.png"
+        src="/landing/guy.svg"
         alt="Hero Image"
        
         className="object-cover  "

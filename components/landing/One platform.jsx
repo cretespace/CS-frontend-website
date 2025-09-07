@@ -4,37 +4,37 @@ const features=[
   {
     id:1,
     title:"Wide Range of Services",
-    icon:"/solar_layers-linear.png",
+    icon:"/landing/icons/stack.svg",
     content:"Enjoy everything from printing and design to typing, scanning, and file conversion.",
   },
   {
     id:2,
     title:"Cloud File Storage",
-    icon:"/ic_outline-cloud.png",
+    icon:"/signUp/cloud.svg",
     content:"Upload, store, and retrieve your documents anytime, your files are always safe.",
   },
   {
     id:3,
     title:"Secure Online Ordering",
-    icon:"/ic_outline-cloud.png",
+    icon:"/landing/icons/sheild.svg",
     content:"Place service requests from anywhere with data protection and privacy built in.",
   },
   {
     id:4,
     title:"Real-Time Order Tracking",
-    icon:"/mdi_package-variant-closed-check.png",
+    icon:"/signUp/checkbox.svg",
     content:"Follow the progress of your orders from start to finish with instant status updates",
   },
   {
     id:5,
     title:"Flexible Delivery Options",
-    icon:"/icon-park-outline_delivery.png",
+    icon:"/signUp/pay.svg",
     content:"Pick up your completed work in person or have it delivered to your doorstep.",
   },
   {
     id:6,
     title:"Access to Expert Support",
-    icon:"/ic_baseline-headset.png",
+    icon:"/signUp/headphone.svg",
     content:"Chat with CRETESPACE specialists for quick help and tailored solutions.",
   }
 ]
@@ -59,7 +59,7 @@ export default function One () {
                                     <p className="mt-[8px] ml-[18px] font-normal text-[12px] leading-[15px] text-[#ffffff7c] tracking-[0%] pr-12">
                                     {item.content}
                                     </p>
-                                    <img className="right-5 absolute bottom-5" src= {item.icon} width={30} height={30} alt="" />
+                                    <img className="right-5 absolute bottom-5 object-coner" src= {item.icon} width={26} height={26} alt="" />
                         </div>
                         ))
                       }
