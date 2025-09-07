@@ -23,7 +23,9 @@ module.exports = {
       // },
 
       fontFamily: {
-       ebrima: ["var(--font-ebrima)", "sans-serif"],
+       ebrima: ["Ebrima", "Arial", "sans-serif"],
+       helvetica: ['"Helvetica Neue"', "Helvetica", "Arial", "sans-serif"],
+       inter: ["Inter", "sans-serif"],
       },
     },
   },

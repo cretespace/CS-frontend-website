@@ -7,7 +7,7 @@ import React from "react";
 export default function Hero() {
   return (
     <section
-      className="flex justify-between -mx-[165px] px-[165px] h-[404px]"
+      className="flex justify-between -mx-[162px] px-[162px] h-[404px]"
       style={{
         backgroundImage: "url('/herobg.jpg')",
         backgroundSize: "cover",
@@ -15,12 +15,12 @@ export default function Hero() {
       }}
     >
       <div className="flex flex-col gap-[38px] mt-[51px]">
-        <h1 className=" font-mono text-[72px] font-bold  sm:leading-[20px] md:leading-[80px] lg:leading-[80px] tracking-[1px] text-left text-global-3 font-ebrima ">
+        <h1 className="font-ebrima text-[72px] font-[700]  leading-[80px] tracking-[1px]  ">
           Skip the Wait,
           <br />
           Skip the Stress.
         </h1>
-        <p className="font-inter text-[18px] text-[#C0C0C0] -mt-5">
+        <p className="font-[400] text-[18px] text-[#C0C0C0] leading-[28px] -mt-5">
           Africa's first Cloud-powered Digital business centre.
         </p>
 

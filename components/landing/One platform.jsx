@@ -44,7 +44,7 @@ export default function One () {
                 
                 <h2 className="text-center font-[500] text-[40px] leading-[100%] tracking-[0%] text-[#FFFFFF]">
                         One Platform, Endless Possibilities.
-                        <img className="w-[167px] h-[10.71px] ml-[440px]" src="/Vector (2).png" alt="" />
+                        <img className="w-[167px] h-[10.71px] ml-[440px]" src="/vector-2.png" alt="" />
                 </h2>
                 <p className="text-center font-[400]  mt-2 text-[14px] leading-[100%] tracking-[0%] text-[#FFFFFFB2]">
                     From individuals to businesses, <span className="font-[700] text-sm leading-[100%] tracking-[0%] text-[rgba(47,194,43,1)]">CRETESPACE</span> puts all your essential tools and services in one secure platform.
