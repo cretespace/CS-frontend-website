@@ -175,7 +175,7 @@ export default function Pricing() {
                 </div>
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex  items-center gap-2 font-normal text-[8.5px] mt-[4px] ">
-                    <img src="vector-10.png" /> {feature}
+                    <img src="/icons/checkmark.svg" /> {feature}
                   </li>
                 ))}
               </ul>

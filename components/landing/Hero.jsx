@@ -9,7 +9,7 @@ export default function Hero() {
     <section
       className="flex justify-between -mx-[165px] px-[165px] h-[404px]"
       style={{
-        backgroundImage: "url('/newhero.jpg')",
+        backgroundImage: "url('/herobg.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
