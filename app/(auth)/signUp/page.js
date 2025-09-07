@@ -35,7 +35,7 @@ const Page = () => {
       }}
       className="min-h-screen -mx-[162px] px-[162px]"
     >
-      <div className="flex gap-[5rem] pt-[80px] ">
+      <div className="flex gap-[5rem] pt-[85px] ">
         {/* Left Section */}
         <div className="flex-[0.5] max-h-[85vh] overflow-scroll scroll-hide flex-shrink-0 flex-col gap-[54px] sticky top-[80px] h-fit hidden md:flex">
           <div>

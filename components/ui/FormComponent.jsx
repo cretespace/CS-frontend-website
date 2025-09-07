@@ -13,7 +13,7 @@ const FormComponent = ({array,link, signup,accountType,setAccountType, cta,botto
         "Business Center",
       ];
   return (
-    <form className='p-10 rounded-[18.94px] flex flex-col gap-[28px] bg-gradient-to-b from-transparent via-[#2FC22B1A] to-black border-[0.95px] border-[#0C520A80]'>
+    <form className='p-10 rounded-[18.94px] flex flex-col gap-[28px] [background:linear-gradient(to_bottom,rgba(0,0,0,0)_0%,rgba(0,0,0,0.6)_100%),linear-gradient(to_right,rgba(0,0,0,0.15)_0%,rgba(0,0,0,0)_90%,rgba(0,0,0,0.15)_100%)] border-[0.95px] border-[#0C520A80]'>
         {signup &&  
         <div className="flex items-center gap-[16px] rounded-[5px] bg-black/20 w-[351px] px-[8px] py-[4px]">
           {accountTypeArray.map((item, index) => (
