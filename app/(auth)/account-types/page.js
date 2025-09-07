@@ -47,7 +47,7 @@ const page = () => {
              </div>
         <p key={index} className='font-[500] text-[16px] font-inter'>{item.type}</p>
         <Icon src={item.image} h={160} w={160}/>
-        <p className='text-center text-white/65 text-[12px]'>{item.use}</p>
+        <p className='text-center text-white/65 text-[12px] font-helvetica'>{item.use}</p>
     </div>))}
 </div>
         </div>  

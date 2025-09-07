@@ -39,7 +39,7 @@ const Page = () => {
         {/* Left Section */}
         <div className="flex-[0.5] max-h-[85vh] overflow-scroll scroll-hide flex-shrink-0 flex-col gap-[54px] sticky top-[80px] h-fit hidden md:flex">
           <div>
-            <h1 className="font-[500] text-[36px]">Create your Account</h1>
+            <h1 className="font-[500] text-[36px] font-helvetica">Create your Account</h1>
             <h2 className="text-[#2FC22B] font-[500] text-[24px]">
               {accountType} Account
             </h2>
@@ -50,7 +50,7 @@ const Page = () => {
               <div key={index} className="flex flex-col gap-[12px]">
                 <Icon src={item.icon} />
                 <h3 className="font-[500] text-[18px]">{item.text}</h3>
-                <h4 className="font-[400] text-[12px] text-white/70 w-[75%] leading-[15px]">
+                <h4 className="font-[400] text-[12px] text-white/70 w-[75%] font-helvetica -mt-1 leading-[15px]">
                   {item.subtext}
                 </h4>
               </div>
