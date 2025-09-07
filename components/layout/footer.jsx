@@ -68,10 +68,10 @@ export default function Footer() {
           <p className="font-medium text-white">Office Address</p>
           <p>70 Latief Adegboyega Street, Off Ago Palace Way, Okota, Lagos</p>
           <div className="flex gap-4 mt-3 text-lg">
-           <img src="Vector (11).png"/>
-           <img src="Vector (12).png"/>
-           <img src="Vector (13).png"/>
-           <img src="Vector (14).png"/>
+           <img src="/icons/twitter.svg"/>
+           <img src="/icons/whatsapp.svg"/>
+           <img src="/icons/facebook.svg"/>
+           <img src="/icons/instagram.svg"/>
           </div>
         </div>
 

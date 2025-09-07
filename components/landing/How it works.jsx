@@ -5,21 +5,21 @@ const data = [
   {
     id: 1,
     title: "Order from anywhere",
-    icon: "/vector.png",
+    icon: "/landing/icons/devices.svg",
     content:
       "Place your order online from your phone or computer. Upload your files, choose what you need, and confirm; all without leaving your location.",
   },
   {
     id: 2,
     title: "Order from anywhere",
-    icon: "/vector-1.png",
+    icon: "/landing/icons/clock.svg",
     content:
       "Get a message when your order is done. Stop by at any of our CRETESPACE stores, and collect it at a time that’s convenient for you.",
   },
   {
     id: 3,
     title: "Order from anywhere",
-    icon: "/vector-7.png",
+    icon: "/landing/icons/truck.svg",
     content:
       "Prefer not to go out? Select our delivery option and we’ll bring your order straight to your home, school, or office. It’s fast, safe, and saves you time.",
   },

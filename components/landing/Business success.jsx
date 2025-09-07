@@ -6,14 +6,14 @@ const businessSuccessStories = [
     quote: "Our team works closely with CRETESPACE support agents who handle tasks quickly and professionally. It feels like we’ve added skilled staff without increasing payroll",
     name: "Amaka Bello",
     position: "HR Lead",
-    image: "/Ellipse 9.png",
+    image: "/images/persone.svg",
     tag: "/images/bizCardTag.png",
     star: [
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
     ],
   },
   {
@@ -21,14 +21,14 @@ const businessSuccessStories = [
     quote: "From cloud storage to virtual meetings, CRETESPACE has streamlinedour admin processes. We’ve cut down on overhead costs while gettingmore done in less time",
     name: "Samuel Ofor",
     position: "Business Director",
-    image: "/Ellipse 9 (1).png",
+    image: "/images/perstwo.svg",
     tag: "/images/bizCardTag.png",
    star: [
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
     ],
   },
   {
@@ -36,14 +36,14 @@ const businessSuccessStories = [
     quote: "CRETESPACE has completely changed how we handle admin work. From document formatting to team collaboration and cloud storage, and welove it!",
     name: "Tunde Adeboye",
     position: "Operations Manager",
-    image: "/Ellipse 9 (2).png",
+    image: "/images/persthree.svg",
     tag: "/images/bizCardTag.png",
     star: [
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
-      "/Vector (5).png",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
     ],
   }
 ];
@@ -66,15 +66,15 @@ export default function Business() {
           width={28}
           height={28}
           alt="tag"
-          src={story.tag}
+          src='/icons/quotemark.svg'
           className="my-3"
         />
 
-          <h3 className="font-medium text-[24px]  text-[#FFFFFF] ">
+          <h3 className="font-medium text-[24px] font-[500] text-[#FFFFFF] ">
             {story.title}
           </h3>
 
-          <p className="font-normal text-[14px] text-[rgba(255,255,255,1)] mt-[16px] leading-[29.57px]">
+          <p className="font-normal text-[14px] font-[400] text-white/80 mt-[14px] leading-[29.57px]">
             {story.quote}
           </p>
 
@@ -101,8 +101,8 @@ export default function Business() {
                 story.star.map((star, i) => (
                   <Image
                     key={i}
-                    width={15.42}
-                    height={14.57}
+                    width={17}
+                    height={17}
                     src={star}
                     alt={`Star ${i + 1}`}
                     className="object-cover"

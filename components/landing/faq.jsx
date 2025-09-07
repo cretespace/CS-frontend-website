@@ -79,17 +79,17 @@ export default function Page() {
         <div className="rounded-[10px] border-1 py-[10px] px-[8px] gap-[10px] mt-[52px] bg-[rgba(25,25,25,1)] border-[rgba(47,194,43,0.3)] text-center ">
           <div className="flex justify-center mb-4">
             <img
-              src="Ellipse 9 (5).png"
+              src="/images/persone.svg"
               alt="avatar1"
               className="w-10 h-10 rounded-full border-2 border-gray-700 -ml-2 first:ml-0"
             />
             <img
-               src="Ellipse 9 (3).png"
+               src="/images/perstwo.svg"
               alt="avatar2"
               className="w-10 h-10 rounded-full border-2 border-gray-700 -ml-2"
             />
             <img
-             src="Ellipse 9 (4).png"
+             src="/images/persthree.svg"
               alt="avatar3"
               className="w-10 h-10 rounded-full border-2 border-gray-700 -ml-2 first:ml-0"
             />

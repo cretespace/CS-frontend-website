@@ -5,26 +5,26 @@ const data=[
     {
         id:1,
         title:"100% Virtual Convenience",
-        imgSrc:"/computerguy.svg",
+        imgSrc:"/landing/computerguy.svg",
         description:"Access all business centre services from your phone or computer without stepping into a physical office. Whether you need a quick document conversion, a full project design, or bulk printing, CRETESPACE lets you order, track, and receive your work entirely online , saving you travel time and effort."
 
     },
     {
         id:2,
         title:"Access to Verified Experts",
-        imgSrc:"/letschat.svg",
+        imgSrc:"/landing/letschat.svg",
         description:"No matter the task, you have access to CRETESPACE’s team of professionals. From admin support to creative design, our experts ensure your jobs are completed accurately, efficiently, and to the highest standards. You can chat directly with them, share files, and give feedback in real time.",
     },
     {
         id:3,
         title:"Secure File Handling",
-        imgSrc:"filehandling.svg",
+        imgSrc:"/landing/filehandling.svg",
         description:"No matter the task, you have access to CRETESPACE’s team of professionals. From admin support to creative design, our experts ensure your jobs are completed accurately, efficiently, and to the highest standards. You can chat directly with them, share files, and give feedback in real time.",
     },
 {
         id:4,
         title:"Scalable for Everyone",
-        imgSrc:"/scalable.svg",
+        imgSrc:"/landing/scalable.svg",
         description:"Whether you&aos;re a student working on assignments, a freelancer handling client projects, a business managing admin tasks, or a physical business centre processing orders, CRETESPACE adapts to your needs with tailored features and account types.",
     }
 ]

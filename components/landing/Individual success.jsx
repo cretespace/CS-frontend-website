@@ -10,31 +10,31 @@ const successStory = [
     content:
       "“From assignments to final year projects, CRETESPACE handles it all. I love the cloud library — I can store and print my work anytime, even right before a deadline.”",
     icons: [
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
     ],
-     social1: "/icon.png",
-    social2: "/svg/icon.svg",
+     social1: "/icons/fwhite.svg",
+    social2: "/icons/twhite.svg",
     },
   
   {
     id: 2,
-    social1: "/icon.png",
-    social2: "/svg/icon.svg",  
+    social1: "/icons/fwhite.svg",
+    social2: "/icons/twhite.svg",  
     name: "Laura Nnaji",
     role: "Fashion Designer",
     image: "/Ellipse 9 (3).png",
     content:
       "“Managing admin tasks used to eatup mytime. With CRETESPACE, I have a dedicated support agent, cloud tools, and quick printing all in one place. My business runs smoother than ever.”",
     icons: [
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
     ],
   },
   {
@@ -45,14 +45,14 @@ const successStory = [
     content:
       "CRETESPACE has been a lifesaver for my freelance work. I can typeset, print, and get documents delivered without leaving my desk. It’s fast, reliable, and stress-free.",
     icons: [
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
-      "/vector-6.png",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
+      "/icons/star.svg",
     ],
- social1: "/icon.png",
-    social2: "/svg/icon.svg",  },
+ social1: "/icons/fwhite.svg",
+    social2: "/icons/twhite.svg",  },
 ];
 
 export default function Individual() {

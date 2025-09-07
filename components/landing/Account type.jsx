@@ -11,7 +11,7 @@ const plans = [
     per: "/month",
     button: "Current Plan",
     thing: 'Features:',
-    image: <img src="vector-9.png" />,
+    image: <img src="/icons/user.svg" />,
     highlighted: false,
     features: [
       "in-app order tracking",
@@ -29,7 +29,7 @@ const plans = [
     per: "/month",
     button: "Upgrade to Business",
     thing: 'Features:',
-    image: <img src="/images/bizPrice.png" />,
+    image: <img src="/icons/buzz.svg" />,
     highlighted: false,
     features: [
       "Virtual meeting booking",
@@ -47,7 +47,7 @@ const plans = [
     per: "/month",
     button: "Upgrade to Student",
     thing: 'Features:',
-    image: <img src="streamline-plump_graduation-cap-solid.png" />,
+    image: <img src="/icons/cap.svg" />,
     highlighted: false,
     features: [
       "in-app order tracking",
@@ -65,7 +65,7 @@ const plans = [
     per: "/month",
     button: "Upgrade to Business Centre",
     thing: 'Features:',
-    image: <img src="fluent_laptop-48-filled.png" />,
+    image: <img src="/icons/comp.svg" />,
     highlighted: false,
     features: [
       "in-app order tracking",
