@@ -14,7 +14,7 @@ const SuccessStoryCard = ({ name, role, image, content, icons, social1,social2 }
           />
         ))}
       </div>
-      <p className="font-[400] text-[16px] text-[#FFFFFF] mt-[32px] leading-[28px]">
+      <p className="font-[400] text-[16px] text-[#FFFFFF] mt-[32px] font-inter leading-[28px]">
         {content}
       </p>
 
