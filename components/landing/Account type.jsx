@@ -11,7 +11,7 @@ const plans = [
     per: "/month",
     button: "Current Plan",
     thing: 'Features:',
-    image: <img src="Vector (9).png" />,
+    image: <img src="vector-9.png" />,
     highlighted: false,
     features: [
       "in-app order tracking",
@@ -175,7 +175,7 @@ export default function Pricing() {
                 </div>
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex  items-center gap-2 font-normal text-[8.5px] mt-[4px] ">
-                    <img src="Vector (10).png" /> {feature}
+                    <img src="vector-10.png" /> {feature}
                   </li>
                 ))}
               </ul>
