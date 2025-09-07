@@ -32,11 +32,10 @@ export default function Hero() {
           <p className="font-[500] text-[16px]">Learn more</p>
         </div>
       </div>
-      <Image
+      <img
         src="/guy2.png"
         alt="Hero Image"
-        width={416}
-        height={404}
+       
         className="object-cover  "
       />
     </section>
